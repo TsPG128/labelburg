@@ -102,8 +102,9 @@ def test_label_designer_gets_what_each_printer_offers(tmp_path):
     # its lever
     assert models['PUQU/Q00']['cutter'] is False and models['PUQU/Q00']['leaves_turned'] is True
     assert (models['PUQU/Q00']['manual_cutter'], models['QL-500']['cutter'], models['QL-500']['manual_cutter']) == (False, False, True)
-    assert {model for model, caps in models.items() if not caps['cutter']} == {'QL-500', 'PUQU/Q00', 'Niimbot/D110_M', 'Niimbot/B1', 'Zebra/ZPL'}
+    assert {model for model, caps in models.items() if not caps['cutter']} == {'QL-500', 'PUQU/Q00', 'Niimbot/D110_M', 'Niimbot/B1', 'Zebra/ZPL', 'Nelko/PM220'}
     assert models['Zebra/ZPL']['leaves_turned'] is True
+    assert models['Nelko/PM220']['leaves_turned'] is True and models['Nelko/PM220']['vendor'] == 'Nelko'
     assert models['PUQU/Q00']['vendor'] == 'PUQU'
 
 

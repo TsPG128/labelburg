@@ -21,6 +21,7 @@ Design and print labels 100% offline. With Labelburg you design labels in your w
 | Niimbot | B1\* (USB, Bluetooth) | 40 and 50 mm wide die-cut thermal labels, also rolls of several small labels to a page, torn off |
 | PUQU | Q00\* (Bluetooth), also sold as the [Reekon P1 Tagger](https://reekon.tools/products/p1-tagger-construction-printer) (P1L\*) | 50 x 30, 50 x 80, 40 x 30 and 40 x 50 mm die-cut thermal labels, torn off |
 | Zebra | ZPL printers (USB or network), e.g., the GK420t\*, also the Datamax E-4204B\* | common metric and inch die-cut labels up to 104 mm wide, e.g. 4 x 6 in or A6, torn off |
+| Nelko | PM220 (also sold as the P20), and other TSPL printers with a 48 mm printhead (USB or network, e.g. behind p910nd) | 50 x 30 mm die-cut thermal labels, calibrated on a real printer; 40 x 30 and 40 x 20 mm not yet, torn off |
 
 \* Tried on a real printer. The others are built from the makers' technical documents and open source drivers.
 
